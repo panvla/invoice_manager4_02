@@ -32,7 +32,7 @@ public class User {
     private String title;
     private String bio;
     private String imageUrl;
-    private String enabled;
+    private boolean enabled;
     private boolean isNotLocked;
     private boolean isUsingMfa;
     private LocalDateTime createdAt;
